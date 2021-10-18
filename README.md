@@ -1,6 +1,6 @@
 # InterNACHI Membership Guide
 
-## THIS IS A WORK IN PROGRESS. CHECK BACK SOON.
+[View the latest version of the guide](https://internachi.github.io/internachi-membership-guide/)
 
 InterNACHI® is working on a membership guide that we intend to print and send to members and prospective
 members. We’d like to publish a web-based version as well, and this is where we need your help! Our web
@@ -18,6 +18,12 @@ design team simply doesn’t have the time to give this project the attention it
    catalog. We’re not looking for free/spec work here—it should be just enough to give us a sense of how you'd approach the project
    while not taking you very long to accomplish.
 3. We'll get in touch with you once you’ve submitted a PR with next steps.
+
+### Pre-Approval (optional)
+
+If you’re not comfortable submitting a PR out of the blue, open an issue and link to your portfolio or some other existing
+work to request pre-approval for one hour of work at your current hourly rate. If we approve, we'll pay you for an hour of
+your time to make the first trial PR.
 
 ## Why is this a GitHub repo?
 
