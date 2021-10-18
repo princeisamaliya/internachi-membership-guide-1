@@ -13,8 +13,8 @@
   },
   "scripts": {
     "postinstall": "husky install",
-    "build": "tailwindcss -o guide.css",
-    "watch": "tailwindcss -o guide.css --watch"
+    "build": "tailwindcss -i ./src.css -o guide.css",
+    "watch": "tailwindcss -i ./src.css -o guide.css --watch"
   },
   "devDependencies": {
     "husky": "^7.0.2",
