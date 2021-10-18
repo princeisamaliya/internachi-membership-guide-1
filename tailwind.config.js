@@ -14,7 +14,7 @@ const colorKeywords = {
 module.exports = {
 	mode: 'jit',
 	prefix: '',
-	important: true,
+	important: '#guide',
 	separator: ':',
 	purge: [
 		'./*.html'

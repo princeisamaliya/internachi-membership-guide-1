@@ -11,21 +11,42 @@
 	<!-- But since we use purge CSS in production, we'll also include a local, optimized version of tailwind. -->
 	<link rel="stylesheet" href="guide.css" />
 </head>
-<body class="antialiased tailwind">
+<body id="guide" class="antialiased tailwind">
 
 <div class="min-h-screen bg-blue-600 md:flex">
-	<div class="flex flex-1 justify-center items-center">
-		<div class="p-8 text-xl text-center text-yellow-300">
-			<img class="w-64" src="https://www.nachi.org/img/logo@2x-baab4a7c09.png?v=4" />
-			<p>
-				Welcome to InterNACHI®
-			</p>
+	<div
+		class="flex-1 self-start bg-opacity-20 bg-center bg-cover md:h-screen"
+		style="background-image: url(img/map.jpg)"
+	>
+		<div class="flex flex-col justify-between p-8 h-full bg-gradient-to-b from-blue-800">
+			<img class="w-32" src="https://www.nachi.org/img/logo@2x-baab4a7c09.png?v=4" />
+			
+			<div class="py-4 px-8 font-serif text-4xl font-bold leading-snug bg-white shadow transform rotate-6">
+				Welcome to InterNACHI, where our focus is <span class="p-1 bg-yellow-200">helping home inspectors succeed</span>.
+			</div>
+			
+			<div class="flex justify-center items-center text-white">
+				<span class="text-2xl font-semibold text-center">
+					Find out more below
+				</span>
+				<svg class="ml-2 w-10 h-10 delay-1000 animate-bounce" aria-hidden="true"
+				     focusable="false"
+				     data-prefix="fas"
+				     data-icon="arrow-down"
+				     class="svg-inline--fa fa-arrow-down fa-w-14"
+				     role="img"
+				     xmlns="http://www.w3.org/2000/svg"
+				     viewBox="0 0 448 512">
+					<path fill="currentColor"
+					      d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"></path>
+				</svg>
+			</div>
 		</div>
 	</div>
 	<div class="flex flex-col justify-center self-stretch bg-white md:max-w-1/2">
-		<div class="px-4 pb-4">
+		<div class="p-4">
 			<div class="pill">
-				On this page
+				Learn about
 			</div>
 		</div>
 		<div class="flex items-baseline p-4">
