@@ -27,3 +27,32 @@ for a 2-hour trial contract.
 
 - [Latest print version of the guide](https://s3.us-east-1.amazonaws.com/assets-east-1.nachi.org/pdf/internachi-catalog-2021-10-15.pdf)
 - [Current work-in-progress web version of the guide](https://internachi.github.io/internachi-membership-guide/)
+
+## This repository
+
+Right now we're just building everything in `index.html`. We put together a very basic starting point so that there's
+a place to work from. The current code is not meant for production and will be completely re-done (hopefully by you!)
+before we're finished. It's just there so that you have something to work with for your 2-hour trial.
+
+## Building and Code Style
+
+Once you've cloned the project, make sure everything is installed by running:
+
+```shell
+yarn install
+```
+
+You can build Tailwind with:
+
+```shell
+# Build once
+yarn run build
+
+# Watch for changes and build any time HTML is saved
+yarn run watch
+```
+
+We use [`rustywind`](https://github.com/avencera/rustywind) to enforce Tailwind class order. There is a
+pre-commit hook that is set up to apply rustywind automatically, that should be enabled when you run
+`yarn install`. If you have trouble committing to your fork/branch, make sure you've run `yarn install` and
+if that doesn't work, please run `yarn run postinstall` manually to set up the git hooks.
